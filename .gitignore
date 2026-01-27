@@ -1,0 +1,16 @@
+# Backend secrets
+backend/.env
+
+# Virtual environment
+backend/venv/
+backend/.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
