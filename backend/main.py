@@ -61,7 +61,7 @@ async def analyze_flowchart(file: UploadFile = File(...)):
 
         # Send Image + prompt to AI
         response = client.models.generate_content(
-            model="gemini-flash-latest",
+            model="gemini-2.0-flash",
             contents=[SYSTEM_PROMPT, image]
         )
 
